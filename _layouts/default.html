@@ -6,36 +6,7 @@
 
     <div class="main-wrapper">
 
-      <div class="header clearfix"><!-- HEADER -->
-
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-main navbar-default" role="navigation">
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/" style="font-size: 30px; font-wight: 700; color: #47bac1;">Brit brit</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown"><a href="/">Home</a></li>
-                <li class="dropdown"><a href="/">Products</a></li>
-                <li class="dropdown"><a href="/">Services</a></li>
-                <li class="dropdown"><a href="/">About</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div>
-        </nav>
-
-      </div>
-
+      {% include header.html %}
       {{ content }}
 
       <!-- FOOTER -->
@@ -104,7 +75,7 @@
                   <input type="text" class="form-control" placeholder="your email address" aria-describedby="basic-addon2">
                   <a href="#" class="input-group-addon" id="basic-addon2">go <i class="glyphicon glyphicon-chevron-right"></i></a>
                 </div>
-              </div>
+              </div>  
             </div>
           </div>
         </div>
@@ -122,13 +93,13 @@
                 <li><img src="img/home/footer/card2.png"></li>
                 <li><img src="img/home/footer/card3.png"></li>
                 <li><img src="img/home/footer/card4.png"></li>
-              </ul>
+              </ul> 
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    
     <!-- LOGIN MODAL -->
     <div class="modal fade login-modal" id="login" tabindex="-1" role="dialog">
       <div class="modal-dialog">
@@ -154,7 +125,7 @@
               </div>
               <button type="submit" class="btn btn-primary btn-block">log in</button>
               <button type="button" class="btn btn-link btn-block">Forgot Password?</button>
-            </form>
+            </form>  
           </div>
         </div>
       </div>
@@ -183,7 +154,7 @@
                 <input type="password" class="form-control" id="">
               </div>
               <button type="submit" class="btn btn-primary btn-block">Sign up</button>
-            </form>
+            </form>  
           </div>
         </div>
       </div>
@@ -208,7 +179,7 @@
                     <option value="0">Size</option>
                     <option value="1">Size 1</option>
                     <option value="2">Size 2</option>
-                    <option value="3">Size 3</option>
+                    <option value="3">Size 3</option>            
                   </select>
                 </span>
                 <span class="quick-drop resizeWidth">
@@ -216,11 +187,11 @@
                     <option value="0">Qty</option>
                     <option value="1">Qty 1</option>
                     <option value="2">Qty 2</option>
-                    <option value="3">Qty 3</option>
+                    <option value="3">Qty 3</option>            
                   </select>
                 </span>
                 <div class="btn-area">
-                  <a href="#" class="btn btn-primary btn-block">Add to cart <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                  <a href="#" class="btn btn-primary btn-block">Add to cart <i class="fa fa-angle-right" aria-hidden="true"></i></a> 
                 </div>
               </div>
             </div>
